@@ -1,5 +1,5 @@
 from spelling_confusion_matrices import error_tables
-from spell_checker import Spell_Checker, normalize_text
+from ex1 import Spell_Checker, normalize_text
 import os
 import random
 
@@ -161,8 +161,7 @@ def test_spell_checker(file_path, error_table, show_likelihood = False, show_edi
         
 def main():
     # Set file paths and load error table
-    file_path = 'corpus.txt'
-    # file_path = 'Corpora/trump_historical_tweets.txt'
+    file_path = 'Corpora/big.txt'
     
     if not os.path.exists(file_path):
         print(f"Error: The file path '{file_path}' does not exist.")
