@@ -1,10 +1,23 @@
 # NLP-Project---Spell-Checker
 
-The code implements a context sensitive spell checker based on the Noisy Channel 
-framework and the Norvig spell checker.
 
-In order to determine the best correction, the algorithm will integrate the common error matrix, combined with a trained language model.
+# Spell Checker
 
-You'll load your text file, and an error table (Corpora and Error​ ​Lists respectively). Be sure to understand how the error table is made, if you wish to add to it.
+## Overview
+A spell checker that combines a **language model** with **error correction** using Noisy Channel 
+framework and the Norvig spell checker.. It suggests the most probable spelling corrections by considering
+both word context and common errors (insertions, deletions, etc.).
 
-Run tests.py file to initiate a model based on your picked files (modify the file_path and imports). You can run the file as is and test the different functionalitis in the flow.
+## Features
+- **Language Model (LM):** Trained on a corpus to predict word sequences.
+- **Error Model:** Uses confusion matrices to model common spelling errors.
+- **Context-Aware:** Suggests corrections based on N-gram.
+
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone "https://github.com/your_username/spell_checker.git](https://github.com/alonfridental/NLP-Project---Spell-Checker.git"
+   cd spell_checker
+
+## Evaluation
+- Run tests.py - **Notice** what you load to the  **file_path** variable.
