@@ -16,7 +16,7 @@ both word context and common errors (insertions, deletions, etc.).
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your_username/spell_checker.git](https://github.com/alonfridental/NLP-Project---Spell-Checker.git
+   git clone https://github.com/alonfridental/NLP-Project---Spell-Checker.git
 
 ## Evaluation
 - Run tests.py
